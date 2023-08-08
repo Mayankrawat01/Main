@@ -1,0 +1,157 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: navy;
+}
+.container{
+    margin:20px;
+}
+.container h1{
+    color: white;
+    margin-left: 184px;
+    margin-bottom: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.container input{
+    background-color: white;
+    width: 482px;
+    height: 43px;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.container button{
+    background-color: pink;
+    width: 95px;
+    height: 39px;
+    border: 1px solid palegoldenrod;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.main{
+    border: 2px solid;
+    width: 50%;
+    position: relative;
+    top: 175px;
+    left: 330px;
+    background-color: green;
+}
+ ul{
+    list-style: none;
+}
+
+.container ul li{
+    color: white;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.container ul li i{
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.container ul i{
+  color: white;
+    position: relative;
+    left: 528px;
+    margin-left: 10px;
+    top: -22px;
+cursor: pointer;
+} */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #894476;
+}
+.container h1{
+    color: white;
+    text-align: center;
+}
+
+.container input{
+    color: white;
+}
+.container i{
+    color: white;
+   margin: 5px 5px;
+   cursor: pointer;
+}
+.container ul li{
+    color: white;
+    font-size: 20px;
+    height: auto;
+
+}
+.main{
+    border: 2px solid #4b3995;
+    width: 50%;
+    position: relative;
+    margin: auto;
+    top: 100px;
+    border-radius: 10px;
+    background-color: #4b3995;
+}
+.container ul{
+    list-style: none;
+}
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px ;
+    border: 2px solid #894476;
+    background-color: #894476;
+}
+#write{
+width: 50%;
+height: 35px;
+color: black;
+padding: 10px;
+}
+.upper-one{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.upper-one button{
+    width: 95px;
+    height: 35px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#part-one{
+    width: 87%;
+}
+#delete:hover{
+    color: red;
+}
+#edit:hover{
+    color: greenyellow  ;
+}
+.upper-one button:hover{
+    background-color: darkgrey;
+}
+@media screen and (max-width: 400px) {
+    .upper-one button{
+        width: 40%;
+    }
+    .container ul li{
+        font-size: 5px;
+    }
+    
+  }
+  @media screen and (max-width:1046px) {
+    .container ul li{
+        font-size: 8px;
+    }
+    #part-one{
+        width: 70%;
+    }
+
+  }
+
+
